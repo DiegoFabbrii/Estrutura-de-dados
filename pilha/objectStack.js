@@ -41,10 +41,11 @@ stackObj.push(3);
 stackObj.push(10);
 stackObj.push(23);
 stackObj.push(78);
-console.log(stackObj);
-console.log(stackObj.pop());
-console.log(stackObj.isEmpty());
-console.log(stackObj.peek());
-console.log(stackObj.size());
+console.log(stackObj); // Stack { count: 4, items: { '0': 3, '1': 10, '2': 23, '3': 78 } }
+console.log(stackObj.pop()); // 78
+console.log(stackObj.isEmpty()); // false
+console.log(stackObj.peek()); // 23
+console.log(stackObj.size()); // 3
 stackObj.clear();
-console.log(stackObj);
+console.log(stackObj); // Stack { count: 0, items: {} }
+console.log(stackObj.isEmpty()); // true

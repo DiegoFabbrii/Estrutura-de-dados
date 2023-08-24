@@ -51,13 +51,15 @@ class Stack {
   }
 }
 
+module.exports = Stack;
+
 const minhaPilha = new Stack();
 
-console.log(minhaPilha.isEmpty());
-minhaPilha.push(1);
-minhaPilha.push(2);
-minhaPilha.push(3, 4, 5);
+// console.log(minhaPilha.isEmpty());
+// minhaPilha.push(1);
+// minhaPilha.push(2);
+// minhaPilha.push(3, 4, 5);
 
-console.log(minhaPilha.items);
-console.log(minhaPilha.pop());
-console.log(minhaPilha.items);
+// console.log(minhaPilha.items);
+// console.log(minhaPilha.pop());
+// console.log(minhaPilha.items);
