@@ -1,3 +1,5 @@
+const linkedList = new LinkedList();
+
 console.log(linkedList.isEmpty()); // true
 
 linkedList.push(3);
