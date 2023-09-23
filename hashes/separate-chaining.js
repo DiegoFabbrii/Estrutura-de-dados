@@ -60,29 +60,29 @@ class HashTableSeparateChaining {
   }
 }
 
-const hashTable = new HashTableSeparateChaining();
+// const hashTable = new HashTableSeparateChaining();
 
-hashTable.put("diego", "diego");
+// hashTable.put("diego", "diego");
 
-hashTable.put("ana", "ana");
+// hashTable.put("ana", "ana");
 
-hashTable.put("carla", "carla");
+// hashTable.put("carla", "carla");
 
-hashTable.put("jaqueline", "jaqueline");
+// hashTable.put("jaqueline", "jaqueline");
 
-hashTable.put("maria", "maria");
+// hashTable.put("maria", "maria");
 
-hashTable.put("jefferson", "jefferson");
+// hashTable.put("jefferson", "jefferson");
 
-hashTable.put("joao", "joao");
+// hashTable.put("joao", "joao");
 
-hashTable.put("miguel", "miguel");
+// hashTable.put("miguel", "miguel");
 
-hashTable.put("caroline", "caroline");
+// hashTable.put("caroline", "caroline");
 
-hashTable.put("fernanda", "fernanda");
+// hashTable.put("fernanda", "fernanda");
 
 //console.log(hashTable.get("diego").head);
-hashTable.remove("diego");
-console.log(hashTable.get("diego"));
-console.log(hashTable.users);
+//hashTable.remove("diego");
+//console.log(hashTable.get("diego"));
+//console.log(hashTable.users);
